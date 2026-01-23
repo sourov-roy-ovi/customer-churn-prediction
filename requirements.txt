@@ -1,5 +1,7 @@
+Python
 pandas
 numpy
 matplotlib
 plotly
 scikit-learn
+tensorflow
