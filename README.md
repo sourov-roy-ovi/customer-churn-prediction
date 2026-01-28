@@ -181,7 +181,7 @@ By training the **Artificial Neural Network model**, we got a better accuracy sc
 ---
 
 ## 🧑‍💻 Author
-**Sourov Roy**
+**Sourov Roy**  
 Aspiring Machine Learning / AI Engineer
 
 ---
