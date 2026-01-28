@@ -140,13 +140,41 @@ This allow easy reuse in APIs or deployment environments.
 
 ---
 
+# Add ANN Model
+- Algorithm: **Artificial Neural Network**
+- Model trained using training data
+
+---
+
+## Model Evaluation
+* Accuracy Score: 0.8665
+
+### Classification Report
+```yml
+         precision    recall  f1-score   support
+
+           0       0.88      0.97      0.92      1607
+           1       0.78      0.45      0.57       393
+
+    accuracy                           0.87      2000
+   macro avg       0.83      0.71      0.74      2000
+weighted avg       0.86      0.87      0.85      2000
+```
+
+---
+
+
+By training the **Artificial Neural Network model**, we got a better accuracy score than the previously trained **Decision Tree model**, but there is a data imbalance.
+
+
+---
+
 ## Future Improvements
 * Handle class imbalance using **SMOTE** or class_weight
 * Perform **hyperparameter tuning**
 * Try advanced models:
     - Random Forest
     - XGBoost
-* **Implement Artiicial Neural Network (ANN)** for better performance
 * Deploy the model using Flask/FastAPI
 * Create a web-based dashboard for predictions
 
